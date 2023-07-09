@@ -19,10 +19,10 @@ int main()
 
     printValue(my_array, 10);
 
-    // 컴파일타임에서 결정되는 assert
-    // f5(debug & run) 하기 전에 바로 밑 줄로 에러 탐지
-    const int x = 10;
-    static_assert(x == 5, " x should be 5."); 
+    // // 컴파일타임에서 결정되는 assert
+    // // f5(debug & run) 하기 전에 바로 밑 줄로 에러 탐지
+    // const int x = 10;
+    // static_assert(x == 5, " x should be 5."); 
 
     return 0;
 }
