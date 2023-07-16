@@ -1,10 +1,11 @@
 /**
- * @file     constructor.cpp
- * @author  DongHyeong Lee (lllee.dh@gmail.com)
- * @brief   객체 생성 시 특정 속성 및 기능을 지니도록 설정하는
- *          constructor 에 대해서 알아봅시다.
- * @date    2023-07-16
- */
+ @file       constructor.cpp
+ @author    DongHyeong Lee (lllee.dh@gmail.com)
+ @date      2023-07-16
+ @brief     객체 생성 시 특정 속성 및 기능을 지니도록 설정하는
+            constructor 에 대해서 알아봅시다.
+ @copyright 🌿 홍정모's 따라하면서 배우는 Cpp
+*/
 #include <iostream>
 #define PRINT_FUNC_NAME() std::cout << __func__ << std::endl;
 using namespace std;
