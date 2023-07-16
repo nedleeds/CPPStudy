@@ -49,6 +49,7 @@ public:
         /*
             nullptr 이 아닌 경우 class 소멸 시 동적해제.
             해주지 않으면 memory leak 발생
+            std::vector 는 자동으로 해당 과정을 해준다
         */
        
         if (_arr != nullptr)
