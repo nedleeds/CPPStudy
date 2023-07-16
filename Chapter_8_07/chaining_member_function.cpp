@@ -27,7 +27,7 @@ public:
 };
 
 class Calc
-{   // chaining member functions
+{   // chaining member functions - cpp 에서의 실용성은 아직 의문
 private:
     int _num;
 
