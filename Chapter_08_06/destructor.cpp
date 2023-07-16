@@ -46,8 +46,13 @@ public:
 
     ~IntArray() 
     {
-        delete [] _arr; // class 소멸 시 동적해제
-                        // 해주지 않으면 memory leak 발생
+        /*
+            nullptr 이 아닌 경우 class 소멸 시 동적해제.
+            해주지 않으면 memory leak 발생
+        */
+       
+        if (_arr != nullptr)
+            delete [] _arr;
     }
 };
 
