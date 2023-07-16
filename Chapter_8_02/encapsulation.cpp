@@ -1,3 +1,11 @@
+/**
+ @file       encapsulation.cpp
+ @author    DongHyeong Lee (lllee.dh@gmail.com)
+ @date      2023-07-16
+ @brief     캡슐화에 대한 기본적인 구조를 파악해봅시다
+ @copyright 🌿 홍정모's 따라하면서 배우는 Cpp
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
