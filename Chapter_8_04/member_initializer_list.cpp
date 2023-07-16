@@ -1,7 +1,7 @@
 /**
  @file    member_initializer_list.cpp
  @author DongHyeong Lee (lllee.dh@gmail.com)
- @brief  클래스 생성시 멤버 변수에 대해서 initializer 를 해보자
+ @brief  클래스 생성 시 멤버 변수 초기화의 방법에 대해서 파악해보자
  @date   2023-07-16
 */
 
