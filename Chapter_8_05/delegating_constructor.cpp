@@ -1,9 +1,10 @@
 /**
- @file    delegating_constructor.cpp
- @author DongHyeong Lee (lllee.dh@gmail.com)
- @brief  위임 생성자(delegating constructor)란?
-         : 생성자가 다른 생성자를 사용하는 것
- @date   2023-07-16
+ @file       delegating_constructor.cpp
+ @author    DongHyeong Lee (lllee.dh@gmail.com)
+ @date      2023-07-16
+ @brief     위임 생성자(delegating constructor)란?
+            : 생성자가 다른 생성자를 사용하는 것
+ @copyright 🌿 홍정모's 따라하면서 배우는 Cpp
 */
 
 #include <iostream>
