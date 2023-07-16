@@ -1,8 +1,9 @@
 /**
- @file    member_initializer_list.cpp
- @author DongHyeong Lee (lllee.dh@gmail.com)
- @brief  클래스 생성 시 멤버 변수 초기화의 방법에 대해서 파악해보자
- @date   2023-07-16
+ @file       member_initializer_list.cpp
+ @author    DongHyeong Lee (lllee.dh@gmail.com)
+ @date      2023-07-16
+ @brief     클래스 생성 시 멤버 변수 초기화의 방법에 대해서 파악해보자
+ @copyright 🌿 홍정모's 따라하면서 배우는 Cpp
 */
 
 #include <iostream>
