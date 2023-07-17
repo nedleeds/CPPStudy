@@ -21,11 +21,11 @@ public:
         cout << "Constructor" << endl;
     }
 
-    // Something(const Something& st_in)
-    // {   // This is Copy Constructor
-    //     _value = st_in._value;
-    //     cout << "Copy Constructor" << endl;
-    // }
+    Something(const Something& st_in)
+    {   // This is Copy Constructor
+        _value = st_in._value;
+        cout << "Copy Constructor" << endl;
+    }
 
     int getValue() const
     {
@@ -41,12 +41,17 @@ void print_arg_passed_by_copy(Something s){
     cout << "["<< &s << "] " << s.getValue() << endl;
 }
 
-int main()
-{
-    Something s{ 1.0 };
-
-    cout << "[" << &s << "] " << s.getValue() << endl;
-    print_arg_passed_by_copy(s);
-
-    return 0;
+void print_arg_passed_without_copy(Something &s){
+    cout << "["<< &s << "] " << s.getValue() << endl;
 }
+
+// int main()
+// {
+//     Something s{ 1.0 };
+
+//     cout << "[" << &s << "] " << s.getValue() << endl;
+//     print_arg_passed_by_copy(s);
+//     print_arg_passed_without_copy(s);
+
+//     return 0;
+// }
