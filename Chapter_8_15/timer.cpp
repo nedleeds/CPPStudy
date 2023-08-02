@@ -45,7 +45,7 @@ int main()
     // cout << endl;
 
     Timer timer;
-
+ 
     std::sort(begin(vec), end(vec));
     timer.elapsed();
 
